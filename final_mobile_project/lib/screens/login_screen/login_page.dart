@@ -1,11 +1,12 @@
-import 'package:clone_ig/constants/user_list_constant.dart';
-import 'package:clone_ig/logics/login_logic.dart';
-import 'package:clone_ig/models/user_model.dart';
-import 'package:clone_ig/pages/main_screen/main_screen.dart';
-import 'package:clone_ig/pages/screen_of_main_page/home_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+
+import '../../constants/user_list_constant.dart';
+import '../../logics/login_logic.dart';
+import '../../models/user_model.dart';
+import '../main_screens/main_screen.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -146,7 +147,7 @@ class _LoginPageState extends State<LoginPage> {
       width: 500,
       child: TextButton(
         style: ElevatedButton.styleFrom(
-          primary: Colors.white12,
+          backgroundColor: Colors.white12,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5),
           ),

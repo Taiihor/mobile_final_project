@@ -1,6 +1,7 @@
 
-import 'package:clone_ig/models/post_model.dart';
+
 import 'package:flutter/foundation.dart';
+import '../models/post_model.dart';
 
 class PostLogic extends ChangeNotifier{
   List<PostModel> _favoriteList =[];

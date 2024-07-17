@@ -1,8 +1,9 @@
-import 'package:clone_ig/logics/login_logic.dart';
-import 'package:clone_ig/logics/post_logic.dart';
-import 'package:clone_ig/pages/login_page.dart';
+import 'package:final_mobile_project/screens/login_screen/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'logics/login_logic.dart';
+import 'logics/post_logic.dart';
 
 void main(){
   runApp(const MyApp());

@@ -1,5 +1,4 @@
 
-import 'package:clone_ig/pages/screen_of_main_page/home_page.dart';
 import 'package:flutter/material.dart';
 
 

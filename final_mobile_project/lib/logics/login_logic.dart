@@ -1,7 +1,6 @@
 
-
-import 'package:clone_ig/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
+import '../models/user_model.dart';
 
 class LoginLogic extends ChangeNotifier{
   late UserModel _loggedInUser;
